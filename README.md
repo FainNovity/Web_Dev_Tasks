@@ -1,44 +1,44 @@
-<div align="center"\>
+<div align="center">
 
-<\!-- You can replace this with a custom banner or logo \--\>
+<!-- You can replace this with a custom banner or logo -->
 
-<img src="https://www.google.com/search?q=https://placehold.co/800x200/1a1a1a/ffffff?text%3DWeb%2BDev%2BTasks%26font%3Dmontserrat" alt="Project Banner"\>
+<img src="https://www.google.com/search?q=https://placehold.co/800x200/1a1a1a/ffffff?text%3DWeb%2BDev%2BTasks%26font%3Dmontserrat" alt="Project Banner">
 
 # **Web Development Practice Tasks**
 
 A curated collection of web development projects designed to practice and showcase a wide range of skills, from fundamental front-end design to full-stack application development.
 
-\<\!-- Dynamic Badges from Shields.io \--\>
+<!-- Dynamic Badges from Shields.io -->
 
-\<p\>  
-\<img src="https://img.shields.io/github/stars/FainNovity/Web\_Dev\_Tasks?style=for-the-badge" alt="Stars"\>  
-\<img src="https://img.shields.io/github/forks/FainNovity/Web\_Dev\_Tasks?style=for-the-badge" alt="Forks"\>  
-\<img src="https://img.shields.io/github/last-commit/FainNovity/Web\_Dev\_Tasks?style=for-the-badge" alt="Last Commit"\>  
-\<img src="https://img.shields.io/github/repo-size/FainNovity/Web\_Dev\_Tasks?style=for-the-badge" alt="Repo Size"\>  
-\<img src="https://img.shields.io/github/license/FainNovity/Web\_Dev\_Tasks?style=for-the-badge" alt="License"\>  
-\</p\>  
-\</div\>
+<p>  
+<img src="https://img.shields.io/github/stars/FainNovity/Web\_Dev\_Tasks?style=for-the-badge" alt="Stars">  
+<img src="https://img.shields.io/github/forks/FainNovity/Web\_Dev\_Tasks?style=for-the-badge" alt="Forks">  
+<img src="https://img.shields.io/github/last-commit/FainNovity/Web\_Dev\_Tasks?style=for-the-badge" alt="Last Commit">  
+<img src="https://img.shields.io/github/repo-size/FainNovity/Web\_Dev\_Tasks?style=for-the-badge" alt="Repo Size">  
+<img src="https://img.shields.io/github/license/FainNovity/Web\_Dev\_Tasks?style=for-the-badge" alt="License">  
+</p>  
+</div>
 
 ## **📂 How to Review the Tasks**
 
 This repository is designed for easy review. Here’s how you can assess each task and what to look for:
 
-\<details\>  
-\<summary\>\<strong\>Task 1: Static Portfolio\</strong\>\</summary\>
+<details>  
+<summary><strong>Task 1: Static Portfolio</strong></summary>
 
 * **Goal:** Demonstrate foundational HTML and CSS skills.  
 * **How to Review:**  
   1. Navigate to the Task1\_Static\_Portfolio folder.  
   2. Open the index.html file directly in your web browser.  
 * **✅ What to Check:**  
-  * **Semantic HTML:** Inspect the source code for proper use of tags like \<header\>, \<footer\>, \<nav\>, \<section\>, and \<article\>.  
+  * **Semantic HTML:** Inspect the source code for proper use of tags like <header>, <footer>, <nav>, <section>, and <article>.  
   * **CSS Styling:** The page should be styled with clean, well-organized CSS.  
   * **Content:** The portfolio should be populated with placeholder or sample content.
 
-\</details\>
+</details>
 
-\<details\>  
-\<summary\>\<strong\>Task 2: Responsive Web Page\</strong\>\</summary\>
+<details>  
+<summary><strong>Task 2: Responsive Web Page</strong></summary>
 
 * **Goal:** Showcase the ability to create layouts that work on all screen sizes.  
 * **How to Review:**  
@@ -49,10 +49,10 @@ This repository is designed for easy review. Here’s how you can assess each ta
   * **Media Queries:** Use your browser's developer tools (F12) to toggle between different device views (e.g., mobile, tablet, desktop).  
   * **Navigation:** The navigation menu should be usable on mobile, perhaps collapsing into a "hamburger" menu.
 
-\</details\>
+</details>
 
-\<details\>  
-\<summary\>\<strong\>Task 3: React To-Do App\</strong\>\</summary\>
+<details>  
+<summary><strong>Task 3: React To-Do App</strong></summary>
 
 * **Goal:** Demonstrate proficiency with a modern JavaScript framework and state management.  
 * **How to Review:**  
@@ -63,10 +63,10 @@ This repository is designed for easy review. Here’s how you can assess each ta
   * **State Management:** Test the core functionality: adding new tasks, marking tasks as complete, and deleting tasks.  
   * **User Interface:** The UI should update instantly without page reloads.
 
-\</details\>
+</details>
 
-\<details\>  
-\<summary\>\<strong\>Task 4: Basic REST API\</strong\>\</summary\>
+<details>  
+<summary><strong>Task 4: Basic REST API</strong></summary>
 
 * **Goal:** Build a simple, functional backend server.  
 * **How to Review:**  
@@ -77,10 +77,10 @@ This repository is designed for easy review. Here’s how you can assess each ta
   * **CRUD Operations:** Test the GET, POST, PUT/PATCH, and DELETE endpoints to ensure they perform the correct actions on the data.  
   * **Status Codes:** The API should return appropriate HTTP status codes (e.g., 200 OK, 201 Created, 404 Not Found).
 
-\</details\>
+</details>
 
-\<details\>  
-\<summary\>\<strong\>Task 5: Database Integration\</strong\>\</summary\>
+<details>  
+<summary><strong>Task 5: Database Integration</strong></summary>
 
 * **Goal:** Connect a backend application to a persistent database.  
 * **How to Review:**  
@@ -90,10 +90,10 @@ This repository is designed for easy review. Here’s how you can assess each ta
   * **Data Persistence:** Data created via a POST request should be retrievable with a GET request even after restarting the server.  
   * **Database Queries:** The API calls should correctly create, read, update, and delete entries in the database.
 
-\</details\>
+</details>
 
-\<details\>  
-\<summary\>\<strong\>Task 6: Full-Stack User Management\</strong\>\</summary\>
+<details>  
+<summary><strong>Task 6: Full-Stack User Management</strong></summary>
 
 * **Goal:** Integrate a front-end and back-end into a cohesive full-stack application.  
 * **How to Review:**  
@@ -104,7 +104,7 @@ This repository is designed for easy review. Here’s how you can assess each ta
   * **Protected Routes:** Ensure that certain pages or data are only accessible to logged-in users.  
   * **Profile Management:** Verify that a logged-in user can view and update their profile information.
 
-\</details\>
+</details>
 
 ## **🛠️ Getting Started (For Development)**
 
@@ -126,13 +126,13 @@ Ensure you have Node.js and npm installed on your machine.
 
 3. Explore a Task:  
    Navigate into any task's directory and follow its specific setup instructions. For most Node.js/React projects, the commands are:  
-   \# Example for the React To-Do App  
+   # Example for the React To-Do App  
    cd Task3\_React\_Todo\_App/task-3-todo-app
 
-   \# Install dependencies  
+   # Install dependencies  
    npm install
 
-   \# Start the development server  
+   # Start the development server  
    npm start
 
 ## **🤝 Contributing**
@@ -151,6 +151,6 @@ If you have a suggestion that would make this better, please fork the repo and c
 
 This project is not currently licensed. It is recommended to add an open-source license like the **MIT License** to encourage collaboration and define usage rights.
 
-\<div align="center"\>  
-\<i\>This README was improved by Gemini.\</i\>  
-\</div\>
+<div align="center">  
+<i>This README was improved by Gemini.</i>  
+</div>
