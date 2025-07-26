@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="py-5 text-center text-white bg-dark" style="background: url(./bg.jpeg); background-size: cover;">
+        <div class="container">
+            <h2 class="display-1 fw-bold">Harsh Parmar</h2>
+            <h2 class="h2 ">Welcome to My Portfolio</h2>
+            <p class="lead">- A showcase of my skills in web development.</p>
+        </div>
+    </section>
+
+    <section id="projects" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4 fw-bold h1">My Projects</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow">
+                        <div class="card-body" style="height: 70vh; overflow: hidden; overflow-y: auto;" >
+                            <img class="card-img" src="https://i.ibb.co/TRC8mYy/Screenshot-2024-11-11-000729.png" />
+                            <h5 class="card-title h2 fw-bold">Hungry Snake</h5>
+                            <p class="card-text" style="letter-spacing: 0.15rem;">Feel nostalgia by playing one of the loved games of childhood. It gets tough with length so, how much can you eat?</p>
+                        </div>
+                        <div class="card-footer">
+                            <a class="btn btn-dark fw-bold fs-5 py-1" href="https://hungry-snake-version.netlify.app/">Check-out</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow">
+                        <div class="card-body" style="height: 70vh; overflow: hidden; overflow-y: auto;">
+                            <img class="card-img" src="https://i.ibb.co/3WgTNMG/Screenshot-2024-11-13-160222.png" />
+                            <h5 class="card-title h2 fw-bold">Card battle</h5>
+                            <p class="card-text" style="letter-spacing: 0.15rem;">War simulation turned into playable game. Every player has some moves to play that take certain time and energy to perform. Made whole thing with plain js and html-css.
+
+</p>
+                        </div>
+                        <div class="card-footer">
+                            <a class="btn btn-dark fw-bold fs-5 py-1" href="https://card-battle.netlify.app/">Check-out</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow">
+                        <div class="card-body" style="height: 70vh; overflow: hidden; overflow-y: auto;">
+                            <img class="card-img" src="https://i.ibb.co/PWtdnJr/Screenshot-2024-11-13-161732.png" />
+                            <h5 class="card-title h2 fw-bold">ChatterBox - Global chat app</h5>
+                            <p class="card-text" style="letter-spacing: 0.15rem;">It's chat app made using web sockets and React framework. You need to have a common port of 6 length and you can start chatting! All ports are global so, anyone can enter any port but, you'll be alerted if someone joins chat.</p>
+                        </div>
+                        <div class="card-footer">
+                            <a class="btn btn-dark fw-bold fs-5 py-1" href="https://chatterbox-portal.netlify.app/">Check-out</a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-5 text-bg-dark " style="letter-spacing: 0.15rem;">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact Me</h2>
+            <form id="contactForm" class="mx-auto" style="max-width: 600px;">
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" rows="3" required></textarea>
+                </div>
+                <div id="form-feedback" class="mb-3"></div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
