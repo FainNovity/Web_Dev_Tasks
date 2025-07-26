@@ -1,8 +1,8 @@
-\<div align="center"\>
+<div align="center"\>
 
-\<\!-- You can replace this with a custom banner or logo \--\>
+<\!-- You can replace this with a custom banner or logo \--\>
 
-\<img src="[https://placehold.co/800x200/1a1a1a/ffffff?text=Web+Dev+Tasks\&font=montserrat](https://www.google.com/search?q=https://placehold.co/800x200/1a1a1a/ffffff?text%3DWeb%2BDev%2BTasks%26font%3Dmontserrat)" alt="Project Banner"\>
+<img src="[https://placehold.co/800x200/1a1a1a/ffffff?text=Web+Dev+Tasks\&font=montserrat](https://www.google.com/search?q=https://placehold.co/800x200/1a1a1a/ffffff?text%3DWeb%2BDev%2BTasks%26font%3Dmontserrat)" alt="Project Banner"\>
 
 # **Web Development Practice Tasks**
 
